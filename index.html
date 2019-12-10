@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>STUDIEPUNT-REKENAAR</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="calculator">
+    <meta name="keywords" content="keywords">
+    <meta name="author" content="Bobberinõ">
+    <link rel=stylesheet href="css/css.css">
+  </head>
+<body>
+  <br>
+  <table>
+      <!--tabel kop-->
+    <thead>
+      <tr>
+        <th>Cluster</th>
+        <th>Studiepunten<br>haalbaar</th>
+        <th>Vak</th>
+        <th>Cijfer</th>
+        <th>Cluster<br>Gemiddelde</th>
+        <th>Studiepunten<br>behaald</th>
+      </tr>
+    </thead>
+    
+      <!--cluster 1-->
+    <tbody>
+      <tr>
+        <td rowspan="2">Cluster 1</td>
+        <td rowspan="2">
+          <span id="studiepuntenHaalbaarCluster1">3</span>
+        </td>
+        <td>PROJ</td>
+        <td>
+          <input type="text" id="PROJ" placeholder="eindcijfer" autocomplete="off">
+        </td>
+        <td rowspan="2" id="gemiddledeCluster1">Gemiddelde</td>
+        <td rowspan="2" id="studiepuntenBehaaldCluster1">Studiepunten</td>
+      </tr>
+      <tr>
+        <td>SCT</td>
+        <td><input type="text" id="SCT" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+    </tbody>
+
+      <!--cluster 2-->
+    <tbody>
+      <tr>
+        <td rowspan="3">Cluster 2</td>
+        <td rowspan="3"><span id="studiepuntenHaalbaarCluster2">5</span></td>
+        <td>PRO</td>
+        <td><input type="text" id="PRO1" placeholder="eindcijfer" autocomplete="off"></td>
+        <td rowspan="3" id="gemiddledeCluster2">Gemiddelde</td>
+        <td rowspan="3" id="studiepuntenBehaaldCluster2">Studiepunten</td>
+      </tr>
+      <tr>
+        <td>DVT</td>
+        <td><input type="text" id="DVT" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+      <tr>
+        <td>DIP</td>
+        <td><input type="text" id="DIP" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+    </tbody>
+
+      <!--cluster 3-->
+    <tbody>
+      <tr>
+        <td rowspan="3">Cluster 3</td>
+        <td rowspan="3"><span id="studiepuntenHaalbaarCluster3">2</span></td>
+        <td>SLB</td>
+        <td><input type="text" id="SLB" placeholder="eindcijfer" autocomplete="off"></td>
+        <td rowspan="3" id="gemiddledeCluster3">Gemiddelde</td>
+        <td rowspan="3" id="studiepuntenBehaaldCluster3">Studiepunten</td>
+      </tr>
+      <tr>
+        <td>WVO-s</td>
+        <td><input type="text" id="WVO-s" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+      <tr>
+        <td>BUR</td>
+        <td><input type="text" id="BUR" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+    </tbody>
+
+      <!--cluster 4-->
+    <tbody>
+      <tr>
+        <td rowspan="3">Cluster 4</td>
+        <td rowspan="3"><span id="studiepuntenHaalbaarCluster4">3</span></td>
+        <td>ENG</td>
+        <td><input type="text" id="ENG" placeholder="eindcijfer" autocomplete="off"></td>
+        <td rowspan="3" id="gemiddledeCluster4">Gemiddelde</td>
+        <td rowspan="3" id="studiepuntenBehaaldCluster4">Studiepunten</td>
+      </tr>
+      <tr>
+        <td>NED</td>
+        <td><input type="text" id="NED" placeholder="eindcijfer" autocomplete="off"><td>
+      </tr>
+      <tr>
+        <td>REK</td>
+        <td><input type="text" id="REK" placeholder="eindcijfer" autocomplete="off"></td>
+      </tr>
+    </tbody>
+
+      <!--cluster 5-->
+    <tbody>
+      <td>Cluster 5</td>
+      <td><span id="studiepuntenHaalbaarCluster5">2</span></td>
+      <td>DIFF</td>
+      <td><input type="text" id="DIFF" placeholder="eindcijfer" autocomplete="off"></td>
+      <td rowspan="3" id="gemiddledeCluster5">Gemiddelde</td>
+      <td rowspan="3" id="studiepuntenBehaaldCluster5">Studiepunten</td>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>
+          <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="images/valid-html5.png" alt="Valide HTML5></a>"
+        </td>
+        <td> <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+              <img src="image/valid_css.gif" alt="Valide CSS"></a>
+        </td>
+        <td colspan="3">Totaal aantal Studiepunten</td>
+        <td id="totaalSP">Totaal</td>
+      </tr>
+
+    </tfoot>
+  </table>
+    <script src="script.js"></script>
+  </table>
+</body>
+
+  </head>
+
+</html>
